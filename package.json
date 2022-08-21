@@ -1,0 +1,21 @@
+{
+  "name": "row-api-project",
+  "version": "1.0.0",
+  "description": "A Restful API to monitor up or down time of user defined links",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootuserrafik/node-row-api-project.git"
+  },
+  "author": "rootuserrafik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rootuserrafik/node-row-api-project/issues"
+  },
+  "homepage": "https://github.com/rootuserrafik/node-row-api-project#readme"
+}
