@@ -23,6 +23,7 @@ app.config = {
 app.createServer = () => {
     const server = http.createServer(app.handleReqRes);
     server.listen(app.config.port, () => {
+        console.log(`Our enverment variable is: ${process.env.NODE_ENV}`); // We can pass variable when run server "NODE_ENV=production node index"
         console.log(`Server Runing Port is: ${app.config.port}`);
     });
 }
